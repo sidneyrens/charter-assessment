@@ -49,9 +49,7 @@ const TransactionTable = () => {
                 key={row._id}
                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
               >
-                <TableCell component="th" scope="row">
-                  {row.firstName}
-                </TableCell>
+                <TableCell component="th" scope="row">{row.firstName} {row.lastName}</TableCell>
                 <TableCell align="right">{row.transactions[0].orderDate.toDateString()}</TableCell>
                 <TableCell align="right">{row.transactions[0].orderTotal}</TableCell>
                 <TableCell align="right">{row.transactions[0].orderRewards}</TableCell>
