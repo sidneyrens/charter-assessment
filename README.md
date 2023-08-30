@@ -15,7 +15,7 @@ In the project directory `/assessment`, you can run:
 
 #### `npm start`
 
-Runs the app in the development mode. You can use the input to enter a valid JavaScript integer and view your transaction points.\
+Runs the app in the development mode. If you view in browser, you will see a fake data seed, displayed with Material UI and showing order totals and calculated order rewards points.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
